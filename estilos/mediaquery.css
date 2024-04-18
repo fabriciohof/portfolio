@@ -1,0 +1,233 @@
+@media screen and (max-width: 767px) {    
+    /* Mobile responsive */
+
+    
+    .flex{
+        flex-direction: column;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+    
+
+    /* Header */
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .logo h1 {
+        border-bottom: 2px solid black; 
+        padding-bottom: 10px; 
+    }
+
+    section.topo-site {
+        padding: 20px 8%;
+    }
+
+    .botao-abrir-menu i{
+        display:block;
+    }
+    
+
+    .menu, .botao-contato{
+        display: none;
+    }
+
+    .topo-site .txt-topo-site h1{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .topo-site .txt-topo-site br{
+        display: flex;
+    }
+    
+    .btn-curriculum {
+        text-align: center;
+        margin-right: 50px;
+        
+    }
+
+    .topo-site .img-topo-site img {
+       margin-bottom: 50px;
+    
+    }
+    
+
+    /* Habilidades */
+
+    section.habilidades{
+        padding: 20px 8%;
+    }
+
+    .sobre .img-sobre {
+        display: none;
+    }
+
+    .sobre .txt-sobre h2 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    .sobre .txt-sobre br {
+        display: none;
+    }
+
+    /* Sobre */
+
+    .botao-social button{   
+        margin: 60px; 
+        margin-right: 40px; 
+
+    }
+
+
+
+    /* Portfolio */
+
+    .img-portfolio1, .img-portfolio2, .img-portfolio3 {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        margin-bottom: 30px;   
+    }
+
+    /* Rodapé */
+
+    footer .linha-rodape {
+        text-align: center; 
+    }
+
+    footer .linha-rodape-borda, footer .linha-rodape-borda #copy{
+       text-align: center;
+       
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Tablet Responsive */
+    flex {
+        flex-direction: column; 
+    }
+
+    body {
+        overflow-x: hidden;
+        
+    }
+
+    #msg {
+         display: none; 
+    }
+
+    /* Header */
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .logo h1 {
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+    }
+
+    section.topo-site {
+        padding: 20px 8%;
+    }
+
+    .botao-abrir-menu i {
+        display: block;
+    }
+
+    .menu,
+    .botao-contato {
+        display: none;
+    }
+
+    .topo-site .txt-topo-site h1 {
+        display: flex;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+
+    .topo-site .txt-topo-site h2 {
+        margin-left: 120px;
+    }
+
+    .topo-site .txt-topo-site p {
+        margin-left: 140px;
+    }
+
+    .topo-site .txt-topo-site br {
+        display: flex;
+    }
+
+    .btn-curriculum {
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .topo-site .img-topo-site img {
+        margin-bottom: 50px;
+    }
+
+    /* Habilidades */
+
+    section.habilidades {
+        padding: 20px 8%;
+    }
+
+    .sobre .img-sobre {
+        display: none;
+    }
+
+    .sobre .txt-sobre h2 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    .sobre .txt-sobre br {
+        display: none;
+    }
+
+    /* Sobre */
+
+    .botao-social button {
+        margin: 60px;
+        margin-right: 40px;
+    }
+
+    /* Portfolio */
+
+    .img-portfolio1, .img-portfolio2 {
+        max-width: 400px; 
+        margin: 10px;
+    }
+
+    .img-portfolio3 {
+        display: none;
+    }
+
+    /* Rodapé */
+
+    footer .linha-rodape {
+        text-align: center;
+    }
+
+    footer .linha-rodape-borda,
+    footer .linha-rodape-borda #copy {
+        text-align: center;
+    }
+}
