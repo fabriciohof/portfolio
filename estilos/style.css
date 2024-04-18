@@ -118,7 +118,7 @@ header nav li {
     top: 0;
     right: 0;
     z-index: 99999;
-    width: 0%;
+    width: 0;
     overflow: hidden;
     transition: .4s;
 }
