@@ -6,7 +6,7 @@
         flex-direction: column;
     }
 
-    body {
+    body,html {
         width: 100%;
         overflow-x: hidden;
     }
@@ -50,7 +50,7 @@
     
     .btn-curriculum {
         text-align: center;
-        margin-right: 50px;
+        
         
     }
 
@@ -80,23 +80,13 @@
         display: none;
     }
 
-    /* Sobre */
-
-    .botao-social button{   
-        margin: 60px; 
-        margin-right: 40px; 
-
-    }
-
-
-
     /* Portfolio */
 
     .img-portfolio1, .img-portfolio2, .img-portfolio3 {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
-        margin-bottom: 30px;   
+        margin-bottom: 50px;   
     }
 
     /* Rodapé */
