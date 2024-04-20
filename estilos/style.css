@@ -266,7 +266,9 @@ section.habilidades .flex {
     border: 2px solid whitesmoke;
     border-radius: 30px;
     transition: .2s;
-
+    cursor: pointer;
+    overflow: hidden;
+    
 }
 
 .habilidades .habilidades-box:hover {
@@ -285,6 +287,36 @@ section.habilidades .flex {
     margin: 10px;
 
 }
+
+.habilidades-box .imagem {     /* Esconder a imagem inicialmente */
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.habilidades-box .imagem img{
+    width: 100px;
+    max-width: 100%; 
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+    
+}
+
+.habilidades-box.expandido { 
+    padding:80px 8%;
+}
+
+
+.habilidades-box.expandido .imagem {
+    display: flex; 
+}
+
+
+.habilidades-box.expandido h3, .habilidades-box.expandido p, .habilidades-box.expandido i {
+    display: none; 
+}
+
 
 /* Sobre */
 

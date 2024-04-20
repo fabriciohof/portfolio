@@ -29,3 +29,16 @@ overlayMenu.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
 
+
+function toggleBox(box) {
+    box.classList.toggle('expandido');
+}
+
+
+if (window.innerWidth > 1023) {
+    // Adicionar evento de clique apenas em dispositivos não móveis
+    document.querySelectorAll('.habilidades-box').forEach(function(element) {
+        element.addEventListener('click', function() {
+        });
+    });
+}
