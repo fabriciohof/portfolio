@@ -296,8 +296,9 @@ section.habilidades .flex {
 }
 
 .habilidades-box .imagem img{
-    width: 100px;
-    max-width: 100%; 
+    width: 100%;
+    height: auto; 
+    max-width: 60px;
     transition: transform 0.3s ease;
     margin-right: 20px;
     
