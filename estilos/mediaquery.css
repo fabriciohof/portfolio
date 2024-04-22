@@ -42,10 +42,11 @@
     .topo-site .txt-topo-site h1{
         font-size: 30px;
         margin-top: 40px;
+        margin-right: 40px;
     }
 
     .topo-site .txt-topo-site br{
-        display: flex;
+        display: block;
     }
     
     .btn-curriculum {
