@@ -43,6 +43,7 @@
         font-size: 30px;
         margin-top: 40px;
         margin-right: 40px;
+        text-align: justify;
     }
 
     .topo-site .txt-topo-site br{
@@ -50,8 +51,7 @@
     }
     
     .btn-curriculum {
-        text-align: center;
-          
+        text-align: justify;
     }
 
     .topo-site .img-topo-site img {
@@ -74,10 +74,6 @@
         text-align: center;
         font-weight: 400;
         font-size: 50px;
-    }
-
-    .sobre .txt-sobre br {
-        display: none;
     }
 
     .habilidades-box {
