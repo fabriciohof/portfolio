@@ -394,7 +394,7 @@ section.portfolio .flex {
 .img-portfolio1, .img-portfolio2, .img-portfolio3 {
     width: 360px;
     height: 460px;
-    background-image: url(../imgs/teste2.png);
+    background-image: url(../imgs/achados.png);
     background-size: cover;
     background-position: 100% 0%;
     transition: 8s;
@@ -405,11 +405,11 @@ section.portfolio .flex {
 }
 
 .img-portfolio2 {
-    background-image: url(../imgs/teste.png);
+    background-image: url(../imgs/login.png);
 }
 
 .img-portfolio3 {
-    background-image: url(../imgs/em-breve.png);
+    background-image: url(../imgs/bugdroid.png);
 }
 
 .img-portfolio1:hover, .img-portfolio2:hover, .img-portfolio3:hover{
