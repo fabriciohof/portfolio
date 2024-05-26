@@ -33,7 +33,7 @@ Este projeto de portfólio é uma demonstração do meu trabalho como desenvolve
 
 ![topo](https://github.com/fabriciohof/portfolio/blob/main/imgs/assets/sobre.png)
 
-![topo](https://github.com/fabriciohof/portfolio/blob/main/imgs/assets/projetos.png)
+
 
 ![topo](https://github.com/fabriciohof/portfolio/blob/main/imgs/assets/contato.png)
 
