@@ -14,18 +14,22 @@
     <link rel="stylesheet" href="estilos/mediaquery.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="javascript/index.js" defer></script>
+
+    <!-- AOS animation library-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="javascript/script.js" defer></script>
+
 </head>
 <body>
 
     <header>
         <div class="interface">
             <div class="logo">
-                <h1>Meu Portfólio</h1>
+                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Meu Portfólio</h1>
             </div>
 
-            <nav class="menu">
+            <nav class="menu" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                 <ul>
                     <li><a href="#inicio">Início</a></li> 
                     <li><a href="#sobre">Sobre</a></li> 
@@ -35,7 +39,7 @@
                 </ul>
             </nav>
 
-            <div class="botao-contato" >
+            <div class="botao-contato" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
                 <a href="#contato">
                     <button>Contato</button>
                 </a>
@@ -73,15 +77,15 @@
                 <div class="flex">
                     <div class="txt-topo-site">
                         <h2 id="msg">Olá Mundo,</h2>
-                        <h1>sou o <br> Fabrício Formentini</h1>
-                        <p>Apaixonado por tecnologia e atualmente em busca de um estágio para expandir minha experiência em desenvolvimento web. Estou ansioso para contribuir em um ambiente dinâmico, aplicar meus conhecimentos acadêmicos em projetos reais e aprender com uma equipe talentosa. Sou dedicado, proativo e pronto para enfrentar novos desafios. Se sua empresa busca um estagiário comprometido, estou pronto para colaborar e crescer junto com vocês alcançando bons resultados!</p>
+                        <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">sou o <br> Fabrício Formentini</h1>
+                        <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="600">Apaixonado por tecnologia e atualmente em busca de um estágio para expandir minha experiência em desenvolvimento web. Estou ansioso para contribuir em um ambiente dinâmico, aplicar meus conhecimentos acadêmicos em projetos reais e aprender com uma equipe talentosa. Sou dedicado, proativo e pronto para enfrentar novos desafios. Se sua empresa busca um estagiário comprometido, estou pronto para colaborar e crescer junto com vocês alcançando bons resultados!</p>
                         
-                        <div class="btn-curriculum">
+                        <div class="btn-curriculum" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
                             <a href="arquivos/curriculum.pdf" download="curriculum.pdf">Download CV</a>
                         </div>
                     </div>
 
-                    <div class="img-topo-site">
+                    <div class="img-topo-site" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
                         <img src="imgs/euedit.png" alt="Eu">
 
                     </div>
@@ -94,9 +98,9 @@
         
         <section id="habilidades" class="habilidades">
             <div class="interface-habilidades" >
-                <h2>Minhas <span>habilidades</span></h2>
+                <h2 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">Minhas <span>habilidades</span></h2>
                 <div class="flex">
-                    <div class="habilidades-box" onclick="toggleBox(this)">
+                    <div class="habilidades-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" onclick="toggleBox(this)">
                         <i class="bi bi-code"></i>
                         <h3>Desenvolvimento Web</h3>
                         <p>Experiência em HTML, CSS, JavaScript, e frameworks como Bootstrap. Familiaridade com desenvolvimento responsivo e uso do Git para controle de versão de código.</p>
@@ -109,7 +113,7 @@
                         </div>
                     </div>
 
-                    <div class="habilidades-box" onclick="toggleBox(this)">
+                    <div class="habilidades-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" onclick="toggleBox(this)">
                         <i class="bi bi-bookmarks"></i>
                         <h3>Aplicações Web</h3>
                         <p>Conhecimento em Python, utilizando o framework Django e um banco de dados com SQL para desenvolvimento de aplicações web dinâmicas e escaláveis.</p>
@@ -121,7 +125,7 @@
                         </div>
                     </div>
 
-                    <div class="habilidades-box">
+                    <div class="habilidades-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                         <i class="bi bi-award"></i>                        
                         <h3>Trabalho em Equipe</h3>
                         <p>Habilidade em colaborar efetivamente em equipe, comunicando ideias de forma clara e contribuindo para o sucesso coletivo de projetos.</p>
@@ -137,16 +141,16 @@
         <section id="sobre" class="sobre">
             <div class="interface-sobre">
                 <div class="flex">
-                    <div class="img-sobre">
+                    <div class="img-sobre" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
                         <img src="imgs/foto2edit.png" alt="Eu">
 
                     </div>
  
                     <div class="txt-sobre">
-                        <h2>Sobre mim</h2>
-                        <p>Atualmente, estudo Tecnologia da Informação e comunicação na Faeterj-Petrópolis, com foco em Desenvolvimento Web, onde o entusiasmo me levou a explorar tecnologias como HTML, CSS, JavaScript, Bootstrap e Python. Além dos estudos, busco expandir meu conhecimento através de projetos pessoais. Acredito na importância do trabalho em equipe e estou sempre disposto a aprender e compartilhar experiências. Fora da programação, gosto de futebol e viajar. Estou ansioso para enfrentar novos desafios e crescer profissionalmente.</p>
+                        <h2 data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="200">Sobre mim</h2>
+                        <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">Atualmente, estudo Tecnologia da Informação e comunicação na Faeterj-Petrópolis, com foco em Desenvolvimento Web, onde o entusiasmo me levou a explorar tecnologias como HTML, CSS, JavaScript, Bootstrap e Python. Além dos estudos, busco expandir meu conhecimento através de projetos pessoais. Acredito na importância do trabalho em equipe e estou sempre disposto a aprender e compartilhar experiências. Fora da programação, gosto de futebol e viajar. Estou ansioso para enfrentar novos desafios e crescer profissionalmente.</p>
 
-                        <div class="botao-social">
+                        <div class="botao-social" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="900">
                             <a href="https://www.linkedin.com/in/fformentini/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
                             <a href="https://github.com/fabriciohof" target="_blank"><button><i class="bi bi-github"></i></button></a>   
 
@@ -163,22 +167,22 @@
 
         <section id="projetos" class="portfolio">
             <div class="interface-portfolio">
-                <h2>Meus projetos</h2>
+                <h2 data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="600">Meus projetos</h2>
                 <div class="flex">
                     
-                    <a href="https://fabriciohof.github.io/landingpage/" target="_blank">
+                    <a href="https://fabriciohof.github.io/landingpage/" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
                         <div class="img-portfolio1">
                             <div class="overlay">Projeto Achados</div>
                         </div>
                     </a>
 
-                    <a href="https://fabriciohof.github.io/telalogin/" target="_blank">
+                    <a href="https://fabriciohof.github.io/telalogin/" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">
                         <div class="img-portfolio2">
                             <div class="overlay">Projeto Login</div>
                         </div>
                     </a>
                     
-                    <a href="https://projeto-cardapio-31mgpkwte-formentinis-projects.vercel.app/" target="_blank">
+                    <a href="https://projeto-cardapio-31mgpkwte-formentinis-projects.vercel.app/" target="_blank" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1500">
                         <div class="img-portfolio3">
                             <div class="overlay">Projeto Cardápio</div>
                         </div>
