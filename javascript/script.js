@@ -1,5 +1,5 @@
 function disableAOSonMobile() {
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 1200) {
         AOS.init({
             disable: true
         });
