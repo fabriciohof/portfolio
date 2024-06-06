@@ -25,6 +25,10 @@ body{
     display: flex;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 #msg {
     display: block;
@@ -416,6 +420,26 @@ section.portfolio .flex {
 .img-portfolio1:hover, .img-portfolio2:hover, .img-portfolio3:hover{
     background-position: 100% 100%;
     
+}
+
+
+.sobre-projeto{
+    font-weight: 800;
+    color: #007bff;
+    padding-top: 10px;
+    align-content: center;
+    text-align: center
+}
+
+.sobre-projeto img{
+    width: 100%;
+    height: auto; 
+    max-width: 60px;
+    padding-top: 10px;
+}
+
+.sobre-projeto:hover{
+    cursor: initial;
 }
 
 

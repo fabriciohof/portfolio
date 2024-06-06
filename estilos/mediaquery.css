@@ -95,6 +95,12 @@
         margin-bottom: 50px;   
     }
 
+    .sobre-projeto{
+        padding-top: 0px;
+        padding-bottom: 50px;
+
+    }
+
     /* Rodapé */
 
     footer .linha-rodape {
@@ -200,6 +206,12 @@
         margin-bottom: 50px;
     }
 
+    .sobre-projeto{
+        padding-top: 0px;
+        padding-bottom: 50px;
+
+    }
+
     footer .linha-rodape {
         text-align: center;
     }
@@ -210,7 +222,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     section.topo-site {
         padding: 20px 5%;
     }
